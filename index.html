@@ -474,25 +474,35 @@
         </button>
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
         <form class="modal-form">
-          <label for="Имя">Имя</label>
+          <label for="user-name" class="modal-label">Имя</label>
           <input
+            minlength="2"
             type="text"
             name="user-name"
             placeholder="Имя"
             class="modal-input"
+            id="user-name"
+            required
             autofocus
           />
+          <label for="user-tel" class="modal-label">Телефон</label>
           <input
-            type="text"
+            type="tel"
             name="user-tel"
             placeholder="Телефон"
             class="modal-input"
+            id="user-tel"
+            required
+            title="+380961112211"
           />
+          <label for="user-name" class="modal-label">Почта</label>
           <input
-            type="text"
+            type="email"
             name="user-email"
             placeholder="Почта"
             class="modal-input"
+            id="user-email"
+            required
           />
           <textarea
             name="comments"
