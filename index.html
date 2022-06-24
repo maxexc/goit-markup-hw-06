@@ -486,6 +486,13 @@
               required
               autofocus
             />
+            <svg class="modal-icon">
+              <use
+                href="./images/icons.svg#icon-name"
+                width="12"
+                height="12"
+              ></use>
+            </svg>
           </div>
           <div class="model-feild">
             <label for="user-tel" class="modal-label">Телефон</label>
@@ -520,6 +527,13 @@
               placeholder="Введите текст"
             ></textarea>
           </div>
+          <fieldset>
+            <legend>Size</legend>
+            <label for="big">Big</label>
+            <input type="radio" id="big" name="size" value="big" />
+            <label for="small">Small</label>
+            <input type="radio" id="small" name="size" value="small" />
+          </fieldset>
           <button type="submit" class="main-btn modal-btn">Отправить</button>
         </form>
       </div>

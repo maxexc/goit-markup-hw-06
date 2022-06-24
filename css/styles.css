@@ -632,14 +632,18 @@ h1[class="visually-hidden"] {
   color: var(--description-text-color);
 }
 
-.modal-input:valid {
-  background-color: rgba(140, 255, 207, 0.568);
+.modal-input:not(:placeholder-shown):not(:focus):valid {
+  background-color: rgba(108, 255, 186, 0.493);
 }
-.modal-input:invalid {
-  background-color: rgba(255, 51, 51, 0.692);
+.modal-input:not(:placeholder-shown):not(:focus):invalid {
+  background-color: rgba(255, 91, 91, 0.856);
 }
 .modal-input:placeholder-shown {
   background-color: transparent;
+}
+.modal-icon {
+  width: 18px;
+  height: 18px;
 }
 
 .modal-text {
