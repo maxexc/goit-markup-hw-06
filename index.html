@@ -474,9 +474,32 @@
         </button>
         <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
         <form class="modal-form">
-          <input type="text" name="Имя" class="modal-input" autofocus />
-          <input type="text" name="Телефон" class="modal-input" />
-          <input type="text" name="Почта" class="modal-input" />
+          <label for="Имя">Имя</label>
+          <input
+            type="text"
+            name="user-name"
+            placeholder="Имя"
+            class="modal-input"
+            autofocus
+          />
+          <input
+            type="text"
+            name="user-tel"
+            placeholder="Телефон"
+            class="modal-input"
+          />
+          <input
+            type="text"
+            name="user-email"
+            placeholder="Почта"
+            class="modal-input"
+          />
+          <textarea
+            name="comments"
+            id=""
+            placeholder="Введите текст"
+          ></textarea>
+          <button type="submit" class="main-btn modal-btn">Отправить</button>
         </form>
       </div>
     </div>
