@@ -599,13 +599,20 @@ h1[class="visually-hidden"] {
   overflow: hidden;
 } */
 
-.modal-form-title {
+.modal-form {
+}
+
+.modal-title {
   font-weight: 700;
   font-size: 20px;
   line-height: calc(23 / 20);
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 16px;
+}
+
+.modal-input {
+  width: 100%;
 }
 
 /* Портфолио */
