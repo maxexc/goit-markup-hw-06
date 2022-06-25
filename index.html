@@ -465,7 +465,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-icon" width="11" height="11">
@@ -480,7 +480,7 @@
               minlength="2"
               type="text"
               name="user-name"
-              placeholder="Имя"
+              placeholder=" "
               class="modal-input"
               id="user-name"
               required
@@ -490,14 +490,13 @@
               <use href="./images/icons.svg#icon-person-black"></use>
             </svg>
           </label>
-
           <label for="user-tel" class="modal-label"
             ><span class="modal-span">Телефон</span>
             <input
               minlength="3"
               type="tel"
               name="user-tel"
-              placeholder="Телефон"
+              placeholder=" "
               class="modal-input"
               id="user-tel"
               required
@@ -507,13 +506,12 @@
               <use href="./images/icons.svg#icon-phone-black"></use>
             </svg>
           </label>
-
           <label for="user-email" class="modal-label"
             ><span class="modal-span">Почта</span>
             <input
               type="email"
               name="user-email"
-              placeholder="Почта"
+              placeholder=" "
               class="modal-input"
               id="user-email"
               required
@@ -522,7 +520,6 @@
               <use href="./images/icons.svg#icon-email-black"></use>
             </svg>
           </label>
-
           <label for="modal-text" class="modal-label"
             ><span class="modal-span">Комментарий</span>
             <textarea
@@ -532,7 +529,6 @@
               placeholder="Введите текст"
             ></textarea>
           </label>
-
           <div class="policy-center">
             <label class="check-label">
               <input type="checkbox" name="check-box" class="check-box" />
@@ -550,7 +546,6 @@
               >
             </label>
           </div>
-
           <button type="submit" class="main-btn modal-btn">Отправить</button>
         </form>
       </div>
