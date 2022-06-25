@@ -620,7 +620,7 @@ h1[class="visually-hidden"] {
   border-radius: 4px;
   background-color: transparent;
 
-  padding-left: 12px;
+  padding-left: 42px;
 }
 
 .modal-label {
@@ -632,6 +632,8 @@ h1[class="visually-hidden"] {
   color: var(--description-text-color);
   position: relative;
 }
+
+/* ///// подсветка строк при заполнении ///// */
 
 .modal-input:not(:placeholder-shown):not(:focus):valid {
   background-color: rgba(108, 255, 186, 0.493);
@@ -649,10 +651,11 @@ h1[class="visually-hidden"] {
 }
 .modal-svg {
   position: absolute;
-  left: 0;
+  left: 12px;
   top: 50%;
 
   transform: translateY(-50%);
+  transition: background-color 250ms var(--timing-function);
 }
 
 .modal-text {
