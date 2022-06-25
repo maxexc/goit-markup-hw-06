@@ -706,6 +706,7 @@ h1[class="visually-hidden"] {
   opacity: 0;
   transition: opacity 250ms var(--timing-function);
 }
+/* ---прячем и убираем из потока--- */
 .check-box {
   position: absolute;
   width: 1px;
