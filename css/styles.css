@@ -69,8 +69,8 @@ a {
 /* убирает рамку при TAB */
 a:focus,
 button:focus,
-input,
-textarea {
+.modal-input,
+.modal-text {
   outline: currentColor;
 }
 
