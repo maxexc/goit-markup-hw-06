@@ -734,7 +734,9 @@ h1[class="visually-hidden"] {
 
   transition: border-color 250ms var(--timing-function);
 }
-
+/* .modal-text:focus::placeholder {
+  color: var(--highlight-color);
+} */
 .policy-center {
   display: flex;
   justify-content: center;
