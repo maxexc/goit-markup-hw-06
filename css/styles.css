@@ -70,7 +70,8 @@ a {
 a:focus,
 button:focus,
 .modal-input,
-.modal-text {
+.modal-text,
+.footer-input {
   outline: currentColor;
 }
 
@@ -574,6 +575,12 @@ h1[class="visually-hidden"] {
   padding-left: 16px;
   color: var(--footer-contact-color);
   margin-right: 12px;
+
+  transition: border-color 250ms var(--timing-function);
+}
+.footer-input:hover,
+.footer-input:focus {
+  border-color: var(--highlight-color);
 }
 .footer-btn {
   min-width: 200px;
